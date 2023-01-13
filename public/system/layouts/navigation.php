@@ -38,6 +38,101 @@
 				</div>
 				<div class="menu-item">
 					<div class="menu-content pt-8 pb-2">
+						<span class="menu-section text-muted text-uppercase fs-8 ls-1">Media</span>
+					</div>
+				</div>
+				<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+					<span class="menu-link">
+						<span class="menu-icon">
+							<i class="bi bi-image fs-3"></i>
+						</span>
+						<span class="menu-title">Media</span>
+						<span class="menu-arrow"></span>
+					</span>
+					<div class="menu-sub menu-sub-accordion menu-active-bg">
+						<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+							<span class="menu-link">
+								<span class="menu-bullet">
+									<span class="bullet bullet-dot"></span>
+								</span>
+								<span class="menu-title">Desktop</span>
+								<span class="menu-arrow"></span>
+							</span>
+							<div class="menu-sub menu-sub-accordion menu-active-bg">
+								<div class="menu-item">
+									<a class="menu-link" href="">
+										<span class="menu-bullet">
+											<span class="bullet bullet-dot"></span>
+										</span>
+										<span class="menu-title">Logo Desktop</span>
+									</a>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link" href="">
+										<span class="menu-bullet">
+											<span class="bullet bullet-dot"></span>
+										</span>
+										<span class="menu-title">Slider Desktop</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+							<span class="menu-link">
+								<span class="menu-bullet">
+									<span class="bullet bullet-dot"></span>
+								</span>
+								<span class="menu-title">Mobile</span>
+								<span class="menu-arrow"></span>
+							</span>
+							<div class="menu-sub menu-sub-accordion menu-active-bg">
+								<div class="menu-item">
+									<a class="menu-link" href="">
+										<span class="menu-bullet">
+											<span class="bullet bullet-dot"></span>
+										</span>
+										<span class="menu-title">Logo Mobile</span>
+									</a>
+								</div>
+								<div class="menu-item">
+									<a class="menu-link" href="">
+										<span class="menu-bullet">
+											<span class="bullet bullet-dot"></span>
+										</span>
+										<span class="menu-title">Slider Mobile</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="menu-item">
+							<a class="menu-link" href="/system/user_permission/user/list.php">
+								<span class="menu-bullet">
+									<span class="bullet bullet-dot"></span>
+								</span>
+								<span class="menu-title">Favicon</span>
+							</a>
+						</div>
+						<div class="menu-item">
+							<a class="menu-link" href="">
+								<span class="menu-bullet">
+									<span class="bullet bullet-dot"></span>
+								</span>
+								<span class="menu-title">Background Header</span>
+							</a>
+						</div>
+						<div class="menu-item">
+							<a class="menu-link" href="">
+								<span class="menu-bullet">
+									<span class="bullet bullet-dot"></span>
+								</span>
+								<span class="menu-title">Background Footer</span>
+							</a>
+						</div>
+					</div>
+
+				</div>
+				<div class="menu-item">
+					<div class="menu-content pt-8 pb-2">
 						<span class="menu-section text-muted text-uppercase fs-8 ls-1">Posts</span>
 					</div>
 				</div>
@@ -983,27 +1078,27 @@
 					</span>
 					<div class="menu-sub menu-sub-accordion">
 						<div class="menu-item">
-							<a class="menu-link" href="apps/customers/getting-started.html">
+							<a class="menu-link" href="/system/customers/add.php">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
-								<span class="menu-title">Getting Started</span>
+								<span class="menu-title">Add</span>
 							</a>
 						</div>
 						<div class="menu-item">
-							<a class="menu-link" href="apps/customers/list.html">
+							<a class="menu-link" href="/system/customers/list.php">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
-								<span class="menu-title">Customer Listing</span>
+								<span class="menu-title">List</span>
 							</a>
 						</div>
 						<div class="menu-item">
-							<a class="menu-link" href="apps/customers/view.html">
+							<a class="menu-link" href="/system/customers/detail.php">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
-								<span class="menu-title">Customer Details</span>
+								<span class="menu-title">Details</span>
 							</a>
 						</div>
 					</div>
@@ -1106,62 +1201,24 @@
 						<span class="menu-arrow"></span>
 					</span>
 					<div class="menu-sub menu-sub-accordion">
-						<div data-kt-menu-trigger="click" class="menu-item menu-accordion mb-1">
-							<span class="menu-link">
+						<div class="menu-item">
+							<a class="menu-link" href="/system/user_permission/user/list.php">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
-								<span class="menu-title">Users</span>
-								<span class="menu-arrow"></span>
-							</span>
-							<div class="menu-sub menu-sub-accordion">
-								<div class="menu-item">
-									<a class="menu-link" href="apps/user-management/users/list.html">
-										<span class="menu-bullet">
-											<span class="bullet bullet-dot"></span>
-										</span>
-										<span class="menu-title">Users List</span>
-									</a>
-								</div>
-								<div class="menu-item">
-									<a class="menu-link" href="apps/user-management/users/view.html">
-										<span class="menu-bullet">
-											<span class="bullet bullet-dot"></span>
-										</span>
-										<span class="menu-title">View User</span>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-							<span class="menu-link">
-								<span class="menu-bullet">
-									<span class="bullet bullet-dot"></span>
-								</span>
-								<span class="menu-title">Roles</span>
-								<span class="menu-arrow"></span>
-							</span>
-							<div class="menu-sub menu-sub-accordion">
-								<div class="menu-item">
-									<a class="menu-link" href="apps/user-management/roles/list.html">
-										<span class="menu-bullet">
-											<span class="bullet bullet-dot"></span>
-										</span>
-										<span class="menu-title">Roles List</span>
-									</a>
-								</div>
-								<div class="menu-item">
-									<a class="menu-link" href="apps/user-management/roles/view.html">
-										<span class="menu-bullet">
-											<span class="bullet bullet-dot"></span>
-										</span>
-										<span class="menu-title">View Role</span>
-									</a>
-								</div>
-							</div>
+								<span class="menu-title">User</span>
+							</a>
 						</div>
 						<div class="menu-item">
-							<a class="menu-link" href="apps/user-management/permissions.html">
+							<a class="menu-link" href="/system/user_permission/role/list.php">
+								<span class="menu-bullet">
+									<span class="bullet bullet-dot"></span>
+								</span>
+								<span class="menu-title">Role</span>
+							</a>
+						</div>
+						<div class="menu-item">
+							<a class="menu-link" href="/system/user_permission/permission/list.php">
 								<span class="menu-bullet">
 									<span class="bullet bullet-dot"></span>
 								</span>
@@ -1244,6 +1301,19 @@
 							</span>
 						</span>
 						<span class="menu-title">System infomations</span>
+					</a>
+				</div>
+				<div class="menu-item">
+					<a class="menu-link" href="/system/support">
+						<span class="menu-icon">
+							<span class="svg-icon svg-icon-2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-octagon" viewBox="0 0 16 16">
+									<path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z" />
+									<path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z" />
+								</svg>
+							</span>
+						</span>
+						<span class="menu-title">Support</span>
 					</a>
 				</div>
 			</div>

@@ -95,7 +95,7 @@
                     <div class="col-md-12">
                         <div class="d-flex flex-column mb-5 fv-row">
                             <label class="fs-5 fw-bold mb-2">Iframe</label>
-                            <textarea class="form-control form-control-solid" rows="10" name="iframe" placeholder="Iframe"></textarea>
+                            <textarea class="form-control form-control-solid" rows="10" name="iframe" placeholder=""></textarea>
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                     <div class="col-md-12">
                         <div class="d-flex flex-column mb-5 fv-row">
                             <label class="fs-5 fw-bold mb-2">Gooogle Analytics</label>
-                            <textarea class="form-control form-control-solid" rows="10" name="google_analytics" placeholder="Google Analytics"></textarea>
+                            <textarea class="form-control form-control-solid" rows="10" name="google_analytics" placeholder=""></textarea>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                     <div class="col-md-12">
                         <div class="d-flex flex-column mb-5 fv-row">
                             <label class="fs-5 fw-bold mb-2">Head JS</label>
-                            <textarea class="form-control form-control-solid" rows="10" name="head_js" placeholder="Head JS"></textarea>
+                            <textarea class="form-control form-control-solid" rows="10" name="head_js" placeholder=""></textarea>
                         </div>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
                     <div class="col-md-12">
                         <div class="d-flex flex-column fv-row">
                             <label class="fs-5 fw-bold mb-2">Body JS</label>
-                            <textarea class="form-control form-control-solid" rows="10" name="body_js" placeholder="Body JS"></textarea>
+                            <textarea class="form-control form-control-solid" rows="10" name="body_js" placeholder=""></textarea>
                         </div>
                     </div>
                 </div>

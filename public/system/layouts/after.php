@@ -3,7 +3,7 @@
 
 <head>
     <base href="/system/">
-    <title>Metronic</title>
+    <title>Admins</title>
     <meta name="" content="" />
     <meta name="" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />

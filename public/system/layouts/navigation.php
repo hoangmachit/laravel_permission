@@ -29,11 +29,11 @@
 					</a>
 				</div>
 				<div class="menu-item">
-					<a class="menu-link" href="/product/categories/index.html">
+					<a class="menu-link" href="/system/collections/index.php">
 						<span class="menu-icon">
 							<i class="bi bi-tablet fs-3"></i>
 						</span>
-						<span class="menu-title">Categories</span>
+						<span class="menu-title">Collections</span>
 					</a>
 				</div>
 				<div class="menu-item">
